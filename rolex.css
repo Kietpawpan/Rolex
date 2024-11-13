@@ -827,7 +827,7 @@ i.sec:nth-of-type(14) {
   /* 16px */
   text-align: center;
   width: 100%;
-  top: 70px; /*monte from 90*/
+  top: 65px; /*monte from 90*/
 }
 .content-upper .sub-name {
   font-family: "Roboto", sans-serif;
