@@ -8,6 +8,10 @@ var out = document.getElementById("date-num");
 out.innerHTML = day;
 
 // Time
+
+
+
+
 $(document).ready(function() {
 	setInterval(function(){
 		getTime();
@@ -15,10 +19,13 @@ $(document).ready(function() {
 	function getTime() {
 		var d = new Date();
 		var s = d.getSeconds() + (d.getMilliseconds()/1000);
-		var m = d.getMinutes();
+		var m = d.getMinutes() + s / 60;
 		var h = hour12();	
 		$(".hand-sec").css("transform", "rotateZ(" + s*6 + "deg)");
-		$(".hand-min").css("transform", "rotateZ(" + m*6 + "deg)");
+		$(".hand-min").css("transform", "rotateZ(" + (m*6+s*0.018) + "deg)");
+
+/* $(".hand-min").css("transform", "rotateZ(" + m*6 + "deg)"); */
+
 		$(".hand-hour").css("transform", "rotateZ(" + (h*30 + m*0.5) + "deg)");
 		function hour12() {
 			var hour = d.getHours();
