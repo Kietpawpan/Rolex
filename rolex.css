@@ -116,7 +116,7 @@ Start main code
 /* Lug */
 .lug {
   position: absolute;
-  width: 104px;
+  width: 104px; 
   height: 250px;
   left: 1px;
   top: -26px;
@@ -136,12 +136,12 @@ Start main code
 .lug:nth-child(3) {
   transform: scaleY(-1);
   top: initial;
-  bottom: -44px;
+  bottom: -40px;/*monte 44*/
 }
 .lug:nth-child(4) {
   transform: scaleY(-1) scaleX(-1);
   top: initial;
-  bottom: -44px;
+  bottom: -44px; /*monte 44*/
   right: 1px;
   left: initial;
 }
@@ -460,7 +460,7 @@ i.bez:nth-of-type(14) {
 }
 .bez-num li {
   position: absolute;
-  list-style-type: none; /* Remove bullets */
+  list-style-type: none; /* monte Remove bullets */
   height: 482px;
   width: 48px;
   text-align: center;
