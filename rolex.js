@@ -22,7 +22,7 @@ $(document).ready(function() {
 		var m = d.getMinutes() + s / 60;
 		var h = hour12();	
 		$(".hand-sec").css("transform", "rotateZ(" + s*6 + "deg)");
-		$(".hand-min").css("transform", "rotateZ(" + (m*6+s*0.008) + "deg)");
+		$(".hand-min").css("transform", "rotateZ(" + (m*6+s*0.0002) + "deg)");
 
 /* $(".hand-min").css("transform", "rotateZ(" + m*6 + "deg)"); */
 
