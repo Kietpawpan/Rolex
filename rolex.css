@@ -876,7 +876,7 @@ i.sec:nth-of-type(14) {
 }
 .content-lower .sub-fine {
   text-transform: uppercase;
-  font-size: 0.4525em;
+  font-size: 7px;
   /* 9px */
   top: -22px; /*monte from ''*/
   letter-spacing: 0.04em;
@@ -885,7 +885,7 @@ i.sec:nth-of-type(14) {
 }
 .content-lower .sub-office {
   text-transform: uppercase;
-  font-size: 0.4525em;
+  font-size: 7px;
   letter-spacing: 0.04em;
   position: relative; /*monte from ''*/
   transform: scale(1, 1.4);
