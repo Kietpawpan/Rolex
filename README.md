@@ -1,7 +1,7 @@
 # Rolex
 This [web watch](https://kietpawpan.github.io/Rolex/) is homaged to [Rolex Oyster Perpetual Submariner Date, m126610LN-0001](https://www.rolex.com/watches/submariner/m126610ln-0001).
 
-The original code was published at https://codepen.io/chrisota/pen/OJJbdbR by Chris Ota, and modified here to imitate the newest Rolex Oyster Perpetual Submariner Date. 
+It was modified from the watch made by Chris Ota, at https://codepen.io/chrisota/pen/OJJbdbR by Chris Ota. The goal is to imitate the model 126610LN-0001 of Rolex. 
 
 # License
 Modified Code:
