@@ -771,7 +771,7 @@ i.sec:nth-of-type(14) {
 .content-upper .logo:before {
   left: 1px;
   width: 2px;
-  height: 2px;
+  height: 1.5px;
   background: #ddd;
   border-radius: 50%;
   box-shadow: 5px 1px 0 #ddd, 9px 3px 0 #ddd, -5px 1px 0 #ddd, -9px 3px 0 #ddd;
@@ -822,21 +822,28 @@ i.sec:nth-of-type(14) {
 .content-upper .name {
   font-family: "Rhodium Libre", serif;
   position: absolute;
-  font-size: 1.125em;
+  font-size: 0.83em;
   letter-spacing: 0.07em;
   /* 16px */
   text-align: center;
   width: 100%;
-  top: 65px; /*monte from 90*/
+  top: 71px; /*monte from 90*/
+  transform: scale(1.2, 1);
+  letter-spacing: 0.02em;
+
 }
 .content-upper .sub-name {
   font-family: "Roboto", sans-serif;
   position: absolute;
   text-align: center;
-  top: 100px;
+  top: 93px;
   width: 100%;
-  font-size: 0.5625em;
+  font-size: 0.4225em;
   /* 9px */
+  transform: scale(1.3, 1);
+  letter-spacing: -0.02em;
+
+
 }
 
 /* Submariner text */
@@ -844,21 +851,24 @@ i.sec:nth-of-type(14) {
   position: absolute;
   font-family: "Roboto", sans-serif;
   text-align: center;
-  top: 158px; /*monte from 178*/
+  top: 162px; /*monte from 178*/
   color: #ddd;
   width: 100%;
 }
 .content-lower .sub-text {
   text-transform: uppercase;
-  font-size: 0.8125em;
+  font-size: 0.6825em;
   /* 13px */
   letter-spacing: 0.02em;
+  transform: scale(1.2, 1);
+
 }
 .content-lower .sub-num {
-  font-size: 0.75em;
+  font-size: 0.6em;
   /* 12px */
-  top: -15px; /*monte from -1*/
+  top: -12px; /*monte from -1*/
   position: relative;
+  transform: scale(1.3, 1);
 }
 .content-lower .sub-num em {
   font-style: italic;
@@ -866,15 +876,25 @@ i.sec:nth-of-type(14) {
 }
 .content-lower .sub-fine {
   text-transform: uppercase;
-  font-size: 0.5625em;
+  font-size: 0.4525em;
   /* 9px */
-  top: -30px; /*monte from ''*/
-  letter-spacing: -0.05em;
+  top: -22px; /*monte from ''*/
+  letter-spacing: 0.04em;
   position: relative; /*monte from ''*/
+  transform: scale(1, 1.4);
 }
+.content-lower .sub-office {
+  text-transform: uppercase;
+  font-size: 0.4525em;
+  letter-spacing: 0.04em;
+  position: relative; /*monte from ''*/
+  transform: scale(1, 1.4);
+  top: -27px;
+}
+
 .content-lower .sub-swiss {
   position: absolute;
-  top: 110px;  /*monte from 96*/
+  top: 106px;  /*monte from 96*/
 
   width: 100%;
   text-transform: uppercase;
@@ -991,8 +1011,8 @@ i.sec:nth-of-type(14) {
 
 /* Date glass */
 .date {
-  width: 76px;
-  height: 60px;
+  width: 70px;
+  height: 58px;
   top: 8px;
   bottom: 0;
   margin: auto;
@@ -1028,15 +1048,15 @@ i.sec:nth-of-type(14) {
   font-size: 1.6875em;
   /* 27px */
   line-height: 1.2;
-  color: #3e3e3e;
+  color: black;/*#3e3e3e;*/
   height: 36px;
   width: 56px;
-  background: radial-gradient(ellipse at center, #efefef 0%, #A7ACB0 100%);
+  background: white;/*radial-gradient(ellipse at center, #efefef 0%, #A7ACB0 100%);*/
   border-radius: 4px;
-  border-top: 3px solid #373D7D;
-  border-left: 3px solid #373D7D;
-  border-bottom: 3px solid #5666AD;
-  border-right: 3px solid #5666AD;
+  border-top: 3px solid black;/*#373D7D;*/
+  border-left: 3px solid #17202a; /*#373D7D;*/
+  border-bottom: 3px solid #17202a; /*#5666AD;*/
+  border-right: 3px solid black; /*#5666AD;*/
   box-shadow: -1px -1px 2px 0 rgba(255, 255, 255, 0.2);
 }
 
