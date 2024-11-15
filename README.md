@@ -8,7 +8,7 @@ This [web watch](https://kietpawpan.github.io/Rolex/) is an homage to Rolex Oyst
 - 41 mm case in Oystersteel, which is highly resistant to corrosion and polishable aerospace-grade metal
 - THB390,500 price tag
 - Calibre 3235, a self-winding mechanical movement manufactured by Rolex
-- Crown between "SWISS" and "MADE"
+- The crown between the words "SWISS" and "MADE"
 - Longer second hand
 - Longer minute hand
 
