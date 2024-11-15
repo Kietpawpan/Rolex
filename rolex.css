@@ -1103,44 +1103,48 @@ i.sec:nth-of-type(14) {
 /* Minute hand */
 .hand-min {
   position: absolute;
-  width: 22px; /*monte 22px */
-  height: 22px;
+  width: 22px; 
+  height: 22px; 
   border-radius: 50%;
   box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.4);
   background: #d0d0d0;
   /* Arm */
   /* Top of hand */
 }
+
 .hand-min:before {
   height: 86px;
   width: 16px;
-  bottom: 28px;
+  bottom: 30.5px; /*monte 28*/
   left: 3px;
   background: #fff;
-  border: 3px solid #d0d0d0;
+  border: 2px solid #d0d0d0; /*monte 3*/
   box-shadow: inset 1px 1px 2px 0 #999, 0 0 4px 1px rgba(0, 0, 0, 0.4);
 }
+
 .hand-min span {
   height: 0;
   width: 0;
-  border-right: 8px solid transparent;
+  border-right: 8.8px solid transparent;
   border-left: 8px solid transparent;
-  border-bottom: 26px solid #d0d0d0;
+  border-bottom: 29px solid #d0d0d0; /*monte 26 longer minute hand*/
   position: absolute;
-  bottom: 114px;
+  bottom: 115px;
   left: 3px;
   /* Bottom of hand  */
 }
+
 .hand-min span:after {
   height: 0;
   width: 0;
-  border-right: 8px solid transparent;
-  border-left: 8px solid transparent;
+  border-right: 8.5px solid transparent;
+  border-left: 8.5px solid transparent;
   border-top: 16px solid #d0d0d0;
   position: absolute;
   bottom: -128px;
   left: -8px;
 }
+
 
 /* Hour hand */
 .hand-hour {
