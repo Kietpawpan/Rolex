@@ -3,7 +3,7 @@
 
 This [web watch](https://kietpawpan.github.io/Rolex/) is an homage to Rolex Oyster Perpetual Submariner Date, [m126610LN-0001](https://www.rolex.com/watches/submariner/m126610ln-0001), with:  
 - Black dial with the words: Rolex, OYSTER PERPETUAL DATE, SUBMARINER, 1000ft = 300m, SUPERLATIVE CHRONOMETER, OFFICAILLY VERIFIED, and SWISS MADE 
-- Scratch-resistant Cerachrome bezel
+- Shiny, scratch-resistant Cerachrome bezel, unaffected by the sun’s ultraviolet rays.
 - Oyster bracelet
 - 41 mm case in Oystersteel, which is highly resistant to corrosion and polishable aerospace-grade metal
 - THB390,500 price tag
