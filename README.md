@@ -13,7 +13,8 @@ This [web watch](https://kietpawpan.github.io/Rolex/) is homaged to [Rolex Oyste
 - Longer second hand
 - Longer minute hand
 
-It was modified from the work by Chris Ota, at https://codepen.io/chrisota/pen/OJJbdbR. The goal of this modification is to imitate the newest model: 126610LN-0001 of Rolex available from the authorized dealers in 2024. 
+## Source 
+Modified from the work by Chris Ota, at https://codepen.io/chrisota/pen/OJJbdbR. 
 
 # License
 Modified Code:
