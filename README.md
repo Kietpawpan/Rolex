@@ -1,5 +1,5 @@
 # Rolex
-![Rolex](https://kietpawpan.github.io/Rolex/Rolex.png | width=25%)
+![Rolex](https://kietpawpan.github.io/Rolex/Rolex.png | width=25)
 
 This [web watch](https://kietpawpan.github.io/Rolex/) is homaged to [Rolex Oyster Perpetual Submariner Date, m126610LN-0001](https://www.rolex.com/watches/submariner/m126610ln-0001):
 - Black dial with the words: Rolex, OYSTER PERPETUAL DATE, SUBMARINER, 1000ft = 300m, SUPERLATIVE CHRONOMETER, OFFICAILLY VERIFIED, and SWISS MADE 
