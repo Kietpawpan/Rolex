@@ -4,7 +4,7 @@
 This [web watch](https://kietpawpan.github.io/Rolex/) is an homage to Rolex Oyster Perpetual Submariner Date, [m126610LN-0001](https://www.rolex.com/watches/submariner/m126610ln-0001), with:  
 - Black dial with the words: Rolex, OYSTER PERPETUAL DATE, SUBMARINER, 1000ft = 300m, SUPERLATIVE CHRONOMETER, OFFICAILLY VERIFIED, and SWISS MADE 
 - Shiny, scratch-resistant Cerachrome bezel, unaffected by the sun’s ultraviolet rays.
-- The fifth generation Oyster bracelet (Ref. 97209) with its unique and exceedingly robust three-piece links, folding Oysterlock safety clasp with Rolex Glidelock extension system, allowing the bracelet length to be extended in 2 mm intervals in order to fit over a wetsuit—or even a swollen wrist after a flight or a salty meal.
+- A beautifully crafted 904L stainless steel, fifth generation Oyster bracelet (Ref. 97209) with its unique and exceedingly robust three-piece links, folding Oysterlock safety clasp with Rolex Glidelock extension system, allowing the bracelet length to be extended in 2 mm intervals in order to fit over a wetsuit—or even a swollen wrist after a flight or a salty meal.
 - 41 mm case in Oystersteel, which is highly resistant to corrosion and polishable aerospace-grade metal
 - THB390,500 price tag
 - Calibre 3235, a self-winding mechanical movement manufactured by Rolex
