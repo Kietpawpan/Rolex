@@ -14,6 +14,14 @@ This [web watch](https://kietpawpan.github.io/Rolex/) is an homage to Rolex Oyst
 
 ## Source 
 Modified from the work by Chris Ota, at https://codepen.io/chrisota/pen/OJJbdbR. 
+- Black bezel
+- Longer second hand
+- Longer minute hand
+- Improve text on the dial
+- Improve date visibility
+- Improve the movement of the second and the hour hands
+- Add the crown to the SWISS MADE
+ 
 
 ## License
 Modified Code:
