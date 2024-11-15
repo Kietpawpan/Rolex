@@ -1,8 +1,7 @@
 # Rolex Oyster Perpetual Submariner Date
 <img src="https://kietpawpan.github.io/Rolex/Rolex.png" width="200">
 
-As an homage to my admiration for the watch, [Rolex Oyster Perpetual Submariner Date, m126610LN-0001](https://www.rolex.com/watches/submariner/m126610ln-0001), this [web watch](https://kietpawpan.github.io/Rolex/) imitates the following Rolex parts:  
-
+As an homage to my admiration for the write watch, Rolex Oyster Perpetual Submariner Date, [m126610LN-0001](https://www.rolex.com/watches/submariner/m126610ln-0001), this [web watch](https://kietpawpan.github.io/Rolex/) imitates the key Rolex parts:  
 - Black dial with the words: Rolex, OYSTER PERPETUAL DATE, SUBMARINER, 1000ft = 300m, SUPERLATIVE CHRONOMETER, OFFICAILLY VERIFIED, and SWISS MADE 
 - Scratch-resistant Cerachrome bezel
 - Oyster bracelet
