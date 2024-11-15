@@ -1,4 +1,4 @@
-# Rolex
+# Rolex Oyster Perpetual Submariner Date
 <img src="https://kietpawpan.github.io/Rolex/Rolex.png" width="200">
 
 This [web watch](https://kietpawpan.github.io/Rolex/) is homaged to [Rolex Oyster Perpetual Submariner Date, m126610LN-0001](https://www.rolex.com/watches/submariner/m126610ln-0001):
@@ -16,7 +16,7 @@ This [web watch](https://kietpawpan.github.io/Rolex/) is homaged to [Rolex Oyste
 ## Source 
 Modified from the work by Chris Ota, at https://codepen.io/chrisota/pen/OJJbdbR. 
 
-# License
+## License
 Modified Code:
 Copyright (c) 2024 by Monte Kietpawpan
 All rights reserved.
