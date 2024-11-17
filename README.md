@@ -23,6 +23,7 @@ Modified from the work by Chris Ota, at https://codepen.io/chrisota/pen/OJJbdbR.
 - Improve the date visibility
 - Improve the movement of the second and the hour hands
 - Add the crown to the SWISS MADE
+- Resize the Cyclops lens
  
 
 ## License
