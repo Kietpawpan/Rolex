@@ -108,8 +108,8 @@
     /* --- The Tiny Crown at 6 O'clock --- */
     .tiny-crown {
         position: absolute;
-        width: 8px;
-        height: 8px;
+        width: 10px; 
+        height: 10px;
         left: 50%;
         top: 50%;
         transform-origin: center;
@@ -119,8 +119,6 @@
         width: 100%;
         height: 100%;
         fill: white;
-        stroke: white;
-        stroke-width: 2; 
     }
 
     /* --- Main Crown Position (Top) --- */
@@ -129,8 +127,8 @@
         top: 18px; 
         left: 50%;
         transform: translateX(-50%); 
-        width: 30px;
-        height: 30px;
+        width: 32px;
+        height: 32px;
         z-index: 6;
     }
 
@@ -150,13 +148,12 @@
         font-family: 'Arial', sans-serif;
         font-size: 9px;
         font-weight: bold;
-        letter-spacing: 0.6px;
+        letter-spacing: 0.2px;
         opacity: 0.9;
     }
 
     .text-top {
         position: absolute;
-        /* UPDATED: Moved up from 75px to 55px */
         top: 60px;
         width: 100%;
         text-align: center;
@@ -172,9 +169,14 @@
         color: white;
         line-height: 1.2;
     }
+    
     .text-cert {
-        font-size: 7px;
+        font-family: 'Arial Narrow', 'Roboto Condensed', sans-serif;
+        font-size: 8.5px;
         letter-spacing: 0.5px;
+        display: inline-block;
+        transform: scaleX(0.75);
+        transform-origin: center;
     }
     
     /* --- SWISS MADE text --- */
@@ -201,18 +203,18 @@
 
     .hand-tail {
         position: absolute;
-        bottom: -10px;
+        bottom: -22px;
         left: 0;
         width: 100%;
-        height: 10px;
-        background: linear-gradient(to right, #d0d0d0 50%, #707070 50%);
+        height: 22px;
+        background: linear-gradient(to right, #d0d0d0 50%, #000000 50%);
         border-radius: 0 0 1px 1px;
         z-index: 1;
     }
 
     .hour-hand {
-        width: 7px;
-        height: 70px;
+        width: 9px;
+        height: 90px;
         background: linear-gradient(to right, #d0d0d0 50%, #707070 50%);
         margin-left: -3.5px;
         z-index: 11;
@@ -224,16 +226,16 @@
         bottom: 0;
         left: 50%;
         width: 50%;
-        height: 18px; 
+        height: 45px; 
         background-color: #000000;
         z-index: 2;
     }
     .hour-hand::after {
         content: '';
         position: absolute;
-        bottom: 20px;
+        bottom: 45px;
         width: 3px;
-        height: 45px;
+        height: 30px;
         background-color: #ffffff;
         border-radius: 1px;
         z-index: 3;
@@ -241,9 +243,9 @@
     }
 
     .minute-hand {
-        width: 5px;
+        width: 6px;
         height: 132px; 
-        background: linear-gradient(to right, #d0d0d0 50%, #707070 50%);
+        background: linear-gradient(to right, #ffffff 50%, #707070 50%);
         margin-left: -2.5px;
         z-index: 12;
         border-radius: 1px 1px 0 0;
@@ -254,16 +256,16 @@
         bottom: 0;
         left: 50%;
         width: 50%;
-        height: 18px; 
+        height: 40px; 
         background-color: #000000;
         z-index: 2;
     }
     .minute-hand::after {
         content: '';
         position: absolute;
-        bottom: 20px;
-        width: 2px;
-        height: 105px; 
+        bottom: 40px;
+        width: 3px;
+        height: 80px; 
         background-color: #ffffff;
         border-radius: 0.5px;
         z-index: 3;
@@ -271,7 +273,7 @@
     }
 
     .second-hand {
-        width: 2px;
+        width:3px;
         height: 132px; 
         background: linear-gradient(to right, #ffffff 50%, #333333 50%);
         margin-left: -1px;
@@ -280,10 +282,10 @@
     .second-hand::after {
         content: '';
         position: absolute;
-        bottom: -20px;
+        bottom: -30px;
         left: 0;
-        width: 2px;
-        height: 20px;
+        width: 3.5px;
+        height: 50px;
         background: linear-gradient(to right, #ffffff 50%, #333333 50%);
     }
 
@@ -320,23 +322,25 @@
             
             <div class="crown-pos">
                 <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M 32,88 A 18,10 0 0 0 68,88" fill="none" stroke="white" stroke-width="4" stroke-linecap="round" />
-                    <path d="M 32,88 A 18,10 0 0 1 68,88" fill="none" stroke="white" stroke-width="7" stroke-linecap="round" />
+                    <path fill-rule="evenodd" d="
+                        M 30,85 A 20,12 0 1 1 70,85 A 20,12 0 1 1 30,85 Z
+                        M 62,89 A 12,4 0 1 0 38,89 A 12,4 0 1 0 62,89 Z
+                    " fill="white" />
                     
-                    <line x1="50" y1="10" x2="50" y2="78" stroke="white" stroke-width="5" stroke-linecap="round" />
-                    <circle cx="50" cy="10" r="5" fill="white" />
+                    <circle cx="50" cy="10" r="5.5" fill="white" />
+                    <path d="M 49,15 L 46,78 L 54,78 L 51,15 Z" fill="white" />
                     
-                    <line x1="34" y1="20" x2="42" y2="80" stroke="white" stroke-width="5" stroke-linecap="round" />
-                    <circle cx="34" cy="20" r="5" fill="white" />
+                    <circle cx="32" cy="18" r="5" fill="white" />
+                    <path d="M 32,22 L 38,77 L 46,77 L 33,21 Z" fill="white" />
                     
-                    <line x1="66" y1="20" x2="58" y2="80" stroke="white" stroke-width="5" stroke-linecap="round" />
-                    <circle cx="66" cy="20" r="5" fill="white" />
+                    <circle cx="68" cy="18" r="5" fill="white" />
+                    <path d="M 68,22 L 54,77 L 62,77 L 67,21 Z" fill="white" />
                     
-                    <line x1="18" y1="38" x2="32" y2="88" stroke="white" stroke-width="5" stroke-linecap="round" />
-                    <circle cx="18" cy="38" r="5" fill="white" />
+                    <circle cx="14" cy="30" r="4.5" fill="white" />
+                    <path d="M 15,32 L 38,82 L 30,82 L 13,31 Z" fill="white" />
                     
-                    <line x1="82" y1="38" x2="68" y2="88" stroke="white" stroke-width="5" stroke-linecap="round" />
-                    <circle cx="82" cy="38" r="5" fill="white" />
+                    <circle cx="86" cy="30" r="4.5" fill="white" />
+                    <path d="M 85,32 L 62,82 L 70,82 L 87,31 Z" fill="white" />
                 </svg>
             </div>
 
@@ -367,43 +371,40 @@
 
 <script>
     const markersContainer = document.getElementById('markers-container');
-    
-    // Define two different radii
-    const radiusMinute = 138; // Outer round
-    const radiusHour = 115;   // Inner round
+    const radiusMinute = 138;
+    const radiusHour = 115;
 
-    // Solid White Crown SVG
+    // Updated Crown SVG string for the JS generated tiny crown
     const crownSVG = `
         <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-            <path d="M 32,88 A 18,10 0 0 0 68,88" fill="none" stroke="white" stroke-width="5" stroke-linecap="round" />
-            <path d="M 32,88 A 18,10 0 0 1 68,88" fill="none" stroke="white" stroke-width="8" stroke-linecap="round" />
+            <path fill-rule="evenodd" d="
+                M 30,85 A 20,12 0 1 1 70,85 A 20,12 0 1 1 30,85 Z
+                M 62,89 A 12,4 0 1 0 38,89 A 12,4 0 1 0 62,89 Z
+            " fill="white" />
             
-            <line x1="50" y1="10" x2="50" y2="78" stroke="white" stroke-width="6" stroke-linecap="round" />
             <circle cx="50" cy="10" r="6" fill="white" />
+            <path d="M 49,15 L 46,78 L 54,78 L 51,15 Z" fill="white" />
             
-            <line x1="34" y1="20" x2="42" y2="80" stroke="white" stroke-width="6" stroke-linecap="round" />
-            <circle cx="34" cy="20" r="6" fill="white" />
+            <circle cx="32" cy="18" r="6" fill="white" />
+            <path d="M 32,22 L 38,77 L 46,77 L 33,21 Z" fill="white" />
             
-            <line x1="66" y1="20" x2="58" y2="80" stroke="white" stroke-width="6" stroke-linecap="round" />
-            <circle cx="66" cy="20" r="6" fill="white" />
+            <circle cx="68" cy="18" r="6" fill="white" />
+            <path d="M 68,22 L 54,77 L 62,77 L 67,21 Z" fill="white" />
             
-            <line x1="18" y1="38" x2="32" y2="88" stroke="white" stroke-width="6" stroke-linecap="round" />
-            <circle cx="18" cy="38" r="6" fill="white" />
+            <circle cx="14" cy="30" r="5" fill="white" />
+            <path d="M 15,32 L 38,82 L 30,82 L 13,31 Z" fill="white" />
             
-            <line x1="82" y1="38" x2="68" y2="88" stroke="white" stroke-width="6" stroke-linecap="round" />
-            <circle cx="82" cy="38" r="6" fill="white" />
+            <circle cx="86" cy="30" r="5" fill="white" />
+            <path d="M 85,32 L 62,82 L 70,82 L 87,31 Z" fill="white" />
         </svg>
     `;
 
     for (let i = 0; i < 60; i++) {
-        
-        // --- 1. HANDLE SWISS MADE TEXT (Min 29 & 31) ---
         if (i === 29) {
             const angle = i * 6;
             const rad = (angle - 90) * (Math.PI / 180);
             const x = 145 + radiusMinute * Math.cos(rad);
             const y = 145 + radiusMinute * Math.sin(rad);
-            
             const txt = document.createElement('div');
             txt.className = 'swiss-text';
             txt.innerText = "MADE";
@@ -419,7 +420,6 @@
             const rad = (angle - 90) * (Math.PI / 180);
             const x = 145 + radiusMinute * Math.cos(rad);
             const y = 145 + radiusMinute * Math.sin(rad);
-            
             const txt = document.createElement('div');
             txt.className = 'swiss-text';
             txt.innerText = "SWISS";
@@ -435,7 +435,6 @@
         const xOuter = 145 + radiusMinute * Math.cos(rad);
         const yOuter = 145 + radiusMinute * Math.sin(rad);
 
-        // --- 2. 12 O'Clock (Index 0) ---
         if (i === 0) {
             const square = document.createElement('div');
             square.className = 'minute-square';
@@ -446,9 +445,7 @@
             continue; 
         }
 
-        // --- 3. 5-Minute Positions ---
         if (i % 5 === 0) {
-            
             const marker = document.createElement('div');
             marker.className = 'marker';
             if (i === 15 || i === 30 || i === 45) {
@@ -469,7 +466,6 @@
                 const crownRadius = radiusMinute - 7;
                 const xCrown = 145 + crownRadius * Math.cos(rad);
                 const yCrown = 145 + crownRadius * Math.sin(rad);
-
                 const tCrown = document.createElement('div');
                 tCrown.className = 'tiny-crown';
                 tCrown.innerHTML = crownSVG;
@@ -485,7 +481,6 @@
                 square.style.transform = `translate(-50%, -50%) rotate(${angle}deg)`;
                 markersContainer.appendChild(square);
             }
-
         } else {
             const tick = document.createElement('div');
             tick.className = 'minute-tick';
